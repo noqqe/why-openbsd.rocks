@@ -1,0 +1,181 @@
+/*
+vim:ts=4:sw=4:
+*/
+
+html {
+	overflow: -moz-scrollbars-vertical !important;
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+html, body, h1, h2 {
+    font-family: 'Merriweather', serif;
+	font-size: 14.5pt;
+}
+h1, h2 {
+	font-size: 30pt;
+	font-weight: bold;
+}
+pre, code {
+	font-family: monospace;
+	font-size: 13pt;
+}
+
+body {
+	background-color: #fdfdfd;
+	line-height: 1.45em;
+	margin: 0;
+	padding: 10px;
+	padding-top: 0;
+}
+
+figcaption {
+	text-align: center;
+    font-style: italic;
+}
+
+a, a:visited {
+	color: #555;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+pre {
+	background-color: #f5f5f5;
+	border: 1px solid #eee;
+	padding: 1em;
+	text-align: left;
+	overflow: auto;
+}
+blockquote {
+	border-left: 4px solid #ccc;
+	padding-left: 1em;
+}
+code,
+pre code {
+	background-color: #f5f5f5;
+}
+
+/* anti spam from the 90s */
+code.rev {
+  direction: rtl;
+  unicode-bidi:bidi-override;
+}
+
+/* hide elements from being displayed */
+.hidden {
+  display: none
+}
+
+header {
+	height: 3em;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 14px 0 25px 0;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+header .bar {
+	color: #ccc;
+	font-size: 13pt;
+	vertical-align: bottom;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+header h2 {
+	font-weight: bold;
+	display: inline;
+	-moz-osx-font-smoothing: auto;
+	-webkit-font-smoothing: auto;
+}
+
+header a,
+header a:visited {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+footer {
+	color: #aaa;
+    padding-top: 2em;
+	margin-bottom: 2em;
+	padding-right: 10px;
+}
+
+footer a,
+footer a:visited {
+	color: dodgerblue;
+}
+
+div.itemcontent {
+	color: #555;
+	margin-top: 0.75em;
+	padding-right: 10px;
+}
+
+div.itemcontent img {
+	-ms-interpolation-mode: bicubic;
+    margin: 0 auto;
+    border-radius: 5px;
+    max-width: 100%;
+    display: block;
+}
+
+body.item header,
+body.item div#contentwrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 665px;
+}
+
+div.itemwrapper h1 {
+	color: #333;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+
+div.itemwrapper h1,
+div.itemwrapper h1 a {
+	color: #333;
+	text-decoration: none;
+}
+
+div.itemdetails {
+	font-size: 11pt;
+}
+
+div.itemdetails {
+	color: #bbb;
+	margin: 0;
+	margin-top: 2px;
+	padding: 0;
+}
+
+div.itemdetails a {
+	color: #999;
+	text-decoration: none;
+}
+
+/* responsive adjustments */
+@media only screen and (max-width: 640px) {
+  div#contentwrapper {
+    max-width: 100%;
+  }
+
+  div#sitewrapper {
+    max-width: auto;
+  }
+
+  header {
+    max-width: 100%;
+  }
+}

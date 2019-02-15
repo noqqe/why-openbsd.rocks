@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+
+  <div class="itemdetails">
+
+   <div class="hidden" itemprop="author publisher">
+    <span itemscope itemtype="http://schema.org/Person">
+    <span itemprop="name">{{ .Site.Params.Author }}</span>
+  </div>
+  </div>
+
+  <div class="itemcontent" itemprop="articleBody">
+    {{ .Content }}
+
+{{ partial "footer.html" . }}

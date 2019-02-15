@@ -1,0 +1,4 @@
+baseURL = "https://why-openbsd.rocks/"
+languageCode = "en-us"
+title = "Why OpenBSD rocks"
+theme = "ease"
