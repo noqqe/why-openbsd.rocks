@@ -1,14 +1,22 @@
 {{ partial "header.html" . }}
 
-  <div class="itemdetails">
+    <header>
 
+  <h1 itemprop="headline">
+     {{ .Title }} <a itemprop="mainEntityOfPage" style="font-size: 15pt;" href="{{ .Permalink }}">(&infin;)</a>
+  </h1>
+    </header>
+
+  <div class="itemdetails">
    <div class="hidden" itemprop="author publisher">
     <span itemscope itemtype="http://schema.org/Person">
     <span itemprop="name">{{ .Site.Params.Author }}</span>
   </div>
   </div>
 
+    <hr>
   <div class="itemcontent" itemprop="articleBody">
     {{ .Content }}
 
+    <hr>
 {{ partial "footer.html" . }}

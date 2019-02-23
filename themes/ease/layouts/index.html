@@ -1,5 +1,15 @@
 {{ partial "header.html" . }}
 
   <div class="itemcontent">
+    <div id="fact"></div>
 
-{{ partial "footer.html" . }}
+    <script>
+      let facts = [
+        {{ range .Pages }}
+            {{ .Permalink }},
+        {{ end }}
+      ];
+      factNumber = Math.floor(Math.random() * facts.length);
+      putFile("fact", facts[factNumber]);
+    </script>
+
