@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+
+    <header>
+      <h1>All facts</h1>
+    </header>
+    <hr>
+    <div class="itemcontent">
+    <ul>
+      {{ range where .Pages "Type" "fact" }}
+      <li>
+          <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+    <hr>
+
+{{ partial "footer.html" . }}
+
