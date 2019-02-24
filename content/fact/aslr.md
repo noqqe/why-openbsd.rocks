@@ -3,8 +3,8 @@ title: "ASLR"
 ---
 
 Address Space Layout Randomisation places code, data and stack in randomly
-selected location. This results in every execution of a binary results in
-a different layout.
+selected location in the memory of the OpenBSD Operating System. As a result
+every execution of a binary ends up in a different layout.
 
 This makes it hard for an attacker to predict memory addresses and process
 behaviour.

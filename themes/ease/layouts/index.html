@@ -5,7 +5,7 @@
 
     <script>
       let facts = [
-        {{ range .Pages }}
+        {{ range (where .Pages "Type" "fact" )}}
             {{ .Permalink }},
         {{ end }}
       ];
