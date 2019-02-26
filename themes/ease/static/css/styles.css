@@ -28,6 +28,7 @@ body {
 	margin: 0;
 	padding: 10px;
 	padding-top: 0;
+    display: inline;
 }
 
 figcaption {
@@ -72,20 +73,13 @@ code.rev {
 }
 
 header {
-	height: 3em;
 	margin-bottom: 10px;
 	margin-top: 10px;
+    display: inline;
 	padding: 14px 0 25px 0;
+    line-height: 30pt;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-}
-
-header .bar {
-	color: #ccc;
-	font-size: 13pt;
-	vertical-align: bottom;
-	padding-left: 1px;
-	padding-right: 1px;
 }
 
 header h2 {
