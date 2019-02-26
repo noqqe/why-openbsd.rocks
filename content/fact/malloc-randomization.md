@@ -2,10 +2,12 @@
 title: "Memory allocation randomization"
 ---
 
-`malloc` randomizes allocations all over the address space. It makes attacks
-harder because each run has a different memory layout, catches bugs
-(allocations are surrounded by unmapped memory) and allows realloc to grow an
-allocation without copying in most cases.
+`malloc` allocates memory that are requested by programs using systemcalls.
+It randomizes allocations of memory all over the address space.
+
+This makes attacks harder because each run has a different memory layout,
+catches bugs (allocations are surrounded by unmapped memory) and allows
+`realloc` to grow an allocation without copying in most cases.
 
 Details:
 
