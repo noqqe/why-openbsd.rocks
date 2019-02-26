@@ -10,6 +10,10 @@ are asking:
 There are a bazillion things that are great about OpenBSD. The people, the
 philosophy and **the technology**.
 
+> “The Members of the OpenBSD Community are masters of reducing complexity”
+>
+> Michael W. Lucas (Author "Absolute OpenBSD")
+
 This site is made to show people random facts about great functionality and
 ideas behind OpenBSD and transport why people are so enthusiastic about it.
 
