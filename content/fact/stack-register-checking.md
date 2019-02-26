@@ -1,5 +1,5 @@
 ---
-title: "Stack-register Checking"
+title: "stack-register checking"
 ---
 
 A memory object should have as least permissions as possible. Typically read,
