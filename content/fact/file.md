@@ -5,7 +5,7 @@ title: "file(1)"
 `file` is sandboxed and runs as user `_file` when executed.
 
 Think of the following: You download a random file from the internet and
-analyze it using `file`. If file has a security hole (locale code execution
+analyze it using `file`. If file has a security hole (local code execution
 for example), he can run attacks with his prepared file. Thats why the file
 utility is sandboxed and chrooted by default.
 
