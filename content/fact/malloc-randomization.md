@@ -2,7 +2,7 @@
 title: "Memory allocation randomization"
 ---
 
-malloc randomizes allocations all over the address space. It makes attacks
+`malloc` randomizes allocations all over the address space. It makes attacks
 harder because each run has a different memory layout, catches bugs
 (allocations are surrounded by unmapped memory) and allows realloc to grow an
 allocation without copying in most cases.
