@@ -31,6 +31,11 @@ body {
     display: inline;
 }
 
+#sitewrapper {
+  padding: 0px 0px 0px 10px;
+}
+
+
 figcaption {
 	text-align: center;
     font-style: italic;
@@ -126,7 +131,6 @@ body.item div#contentwrapper {
 	margin-left: auto;
 	margin-right: auto;
 	width: 665px;
-    padding-bottom: 0px;
 }
 
 div.itemwrapper h1 {
@@ -142,22 +146,6 @@ div.itemwrapper h1 a {
 	text-decoration: none;
 }
 
-div.itemdetails {
-	font-size: 11pt;
-}
-
-div.itemdetails {
-	color: #bbb;
-	margin: 0;
-	margin-top: 2px;
-	padding: 0;
-}
-
-div.itemdetails a {
-	color: #999;
-	text-decoration: none;
-}
-
 /* responsive adjustments */
 @media only screen and (max-width: 640px) {
   div#contentwrapper {
@@ -170,5 +158,17 @@ div.itemdetails a {
 
   header {
     max-width: 100%;
+  }
+  html, body, h1, h2 {
+      font-family: 'Merriweather', serif;
+      font-size: 12.5pt;
+  }
+  h1, h2 {
+      font-size: 25pt;
+      font-weight: bold;
+  }
+  pre, code {
+      font-family: monospace;
+      font-size: 12pt;
   }
 }
