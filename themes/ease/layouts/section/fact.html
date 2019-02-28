@@ -1,18 +1,21 @@
 {{ partial "header.html" . }}
+<body class="item">
+  <div id="sitewrapper">
+    <div id="contentwrapper">
+      <div class="itemwrapper">
+        <header>
+          <h1>All facts</h1>
+        </header>
+        <hr>
+        <div class="itemcontent">
+        <ul>
+          {{ range where .Pages "Type" "fact" }}
+          <li>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+          </li>
+          {{ end }}
+        </ul>
 
-    <header>
-      <h1>All facts</h1>
-    </header>
-    <hr>
-    <div class="itemcontent">
-    <ul>
-      {{ range where .Pages "Type" "fact" }}
-      <li>
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-      </li>
-      {{ end }}
-    </ul>
-    <hr>
-
+{{ partial "menu.html" . }}
 {{ partial "footer.html" . }}
 

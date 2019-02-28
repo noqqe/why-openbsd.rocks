@@ -1,17 +1,18 @@
 {{ partial "header.html" . }}
 
-    <header>
-
-  <h1 itemprop="headline">
-     {{ .Title }} <a itemprop="mainEntityOfPage" style="font-size: 15pt;" href="{{ .Permalink }}">(&infin;)</a>
-  </h1>
-    </header>
-
-    <hr>
-  </div>
-
-  <div class="itemcontent" itemprop="articleBody">
-    {{ .Content }}
-
-    <hr>
-{{ partial "footer.html" . }}
+<body class="item">
+  <div id="sitewrapper">
+    <div id="contentwrapper">
+      <div class="itemwrapper">
+        <header>
+          <h1 itemprop="headline">
+             {{ .Title }} <a itemprop="mainEntityOfPage" style="font-size: 15pt;" href="{{ .Permalink }}">(&infin;)</a>
+          </h1>
+        </header>
+        <hr>
+        <div class="itemcontent" itemprop="articleBody">
+          {{ .Content }}
+          {{ partial "menu.html" . }}
+        </div>
+      </div>
+      {{ partial "footer.html" . }}
