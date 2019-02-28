@@ -10,9 +10,6 @@
   <meta name="robots" content="index, follow">
   <meta content="{{ $isHomePage := eq .Title .Site.Title }}{{ .Title }}{{ if eq $isHomePage false }} - {{ .Site.Title }}{{ end }}" property="og:title">
 
-
-  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-
   <!-- Twitter Cards -->
 	<meta name="twitter:card" content="summary"/>
   <meta name="twitter:image" content="{{ .Site.BaseURL }}/images/logo.png">
@@ -36,7 +33,8 @@
   <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
 
   <!-- CSS -->
-  <link href="{{ .Site.BaseURL }}/css/styles.css" media="all" rel="stylesheet" />
+  <link href="{{ .Site.BaseURL }}css/styles.css" media="all" rel="stylesheet" />
+  <link href="{{ .Site.BaseURL }}fonts/font.css" rel="stylesheet" type="text/css">
 
   <!-- JS -->
   <script src="/js/put.js"></script>
