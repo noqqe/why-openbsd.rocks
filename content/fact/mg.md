@@ -3,7 +3,8 @@ title: "mg(1)"
 ---
 
 `mg` is a small, lightweight emacs clone thats in the base system. Sysadmins
-that do not like `vi(1)` have an alternative to use.
+that do not like [`vi(1)` ](http://man.openbsd.org/vi.1)
+or [`ed(1)`](http://man.openbsd.org/ed.1) have an alternative to use.
 
 Details:
 
