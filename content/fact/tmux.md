@@ -13,6 +13,7 @@ Details:
 
 * [tmux imported into base - commit](https://marc.info/?l=openbsd-cvs&m=124389728412353&w=2)
 * [tmux imported into base - article](https://undeadly.org/cgi?action=article&sid=20090707041154)
-* [Interview with Nicholas](https://www.undeadly.org/cgi?action=article&sid=20090712190402)
+* [Interview with Nicholas](https://www.undeadly.org/cgi?action=article&sid=20090712190402)+
+* [tmux.1 manpage](https://man.openbsd.org/tmux.1)
 * [tmux github page](https://github.com/tmux/tmux)
 * [tmux - Wikipedia](https://en.wikipedia.org/wiki/Tmux)
