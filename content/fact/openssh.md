@@ -5,7 +5,7 @@ title: "OpenSSH"
 The most popular OpenBSD software is probably OpenSSH. By using OpenBSD you
 always have the most recent version and features in your `sshd`.
 
-Its also enabled and securely configured by default.
+It's also enabled and securely configured by default.
 
 Details:
 

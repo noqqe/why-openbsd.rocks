@@ -3,12 +3,12 @@ title: "unveil(2)"
 ---
 
 The `unveil` system call limits the filesystem `open` call to programs to
-only a given set of paths. Its similar to [pledge](/fact/pledge). Its an
-addition to it, as it was found that just limiting programs to do `open` is
+only a given set of paths. It's similar to [pledge](/fact/pledge). `unveil` is an
+addition to `pledge`, as it was found that just limiting programs to do `open` is
 not enough, as `open` still means the whole filesystem.
 
 Why should a program like `passwd(1)`  should have access to more of your
-file system, other than `/etc/passwd` and `/etc/shadow1`? If there is
+file system, other than `/etc/passwd` and `/etc/shadow`? If there is
 a security bug in `passwd` effects would be very limited.
 
 Details:
