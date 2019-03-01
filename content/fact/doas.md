@@ -6,6 +6,11 @@ title: "doas(1)"
 bloated a codebase. `doas` is easy to configure and use and suits for most
 usecases. Besides that it has a very small and elegant codebase.
 
+```
+permit nopass <user> as root
+permit nopass root
+```
+
 Details:
 
 * [doas(1) - OpenBSD manual pages](http://man.openbsd.org/doas)
