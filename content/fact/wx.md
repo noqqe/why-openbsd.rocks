@@ -4,8 +4,8 @@ title: "W^X Memory"
 
 Since 2003, memory on OpenBSD can either be written **or** executed. Not both.
 
-This is a massive security feature that prevents malicious code to produce
-buffer overflows and execute what has been inserted.
+This is a massive security feature that prevents malicious code from producing
+buffer overflows and executing what has been inserted.
 
 Details:
 
