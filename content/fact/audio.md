@@ -3,7 +3,8 @@ title: "Audio recording"
 ---
 
 For privacy reasons, the OpenBSD team disabled audio recording for all
-devices by default in the kernel.
+devices by default in the kernel. This can be toggled on/off with a simple
+sysctl change, without rebooting.
 
 Details:
 
