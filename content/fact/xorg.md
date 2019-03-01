@@ -2,9 +2,8 @@
 title: "Xserver without root permissions"
 ---
 
-OpenBSD developers worked hard to make this possible. Since 2014 there are no
-more special privileges required and can be run as user and though does not
-need to run as root.
+OpenBSD developers worked hard to make this possible. Since 2014, X no longer
+requires special privileges and can be run as a user instead of as root.
 
 Details:
 
