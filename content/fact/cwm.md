@@ -1,5 +1,5 @@
 ---
-title: "cwm"
+title: "cwm(1)"
 ---
 
 Marius Aamodt Eriksen and a few others developed cwm for X11, which contains 
