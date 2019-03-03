@@ -1,6 +1,6 @@
 # About
 
-Im (personally) using OpenBSD since 2012. From time to time people ask me
+I have personally been using OpenBSD since 2012. From time to time people ask me
 why I'm using it. Why it's so great?
 
 I often struggle having all the informations, all the tiny bits of
@@ -12,7 +12,7 @@ interested in OpenBSD
 
 # Help!
 
-Everyone is free to create a PR and this project relies on help! Im not an expert on 
+Everyone is free to create a PR and this project relies on help! I'm not an expert on 
 everything and facts may be missing, have typos or are wrong. 
 
 Feel free to open PRs for:
