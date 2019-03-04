@@ -15,7 +15,7 @@ philosophy and **the technology**.
 > Michael W. Lucas (Author "Absolute OpenBSD")
 
 This site is made to show people random facts about great functionality and
-ideas behind OpenBSD and transport why people are so enthusiastic about it.
+ideas behind OpenBSD and explain why people are so enthusiastic about it.
 
 Help spread the word, share this site and contribute new facts that you
 know of and love about OpenBSD on
