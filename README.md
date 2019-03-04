@@ -1,14 +1,16 @@
+# Why OpenBSD rocks
+
+The idea is to create a website that shows great things in OpenBSD to people interested in using it.
+
 # About
 
-I have personally been using OpenBSD since 2012. From time to time people ask me
-why I'm using it. Why it's so great?
+I have personally been using OpenBSD since 2012. Every now and then 
+(at conferences, the office, the local hackerspace) people are asking:
 
-I often struggle having all the informations, all the tiny bits of
-informations in my head, explaining them to people asking. The technical
-stuff, innovations, behaviour and so on.
+> “You are using OpenBSD? Why?”
 
-The idea is to create a website that shows cool stuff (facts) to people 
-interested in OpenBSD
+There are a bazillion things that are great about OpenBSD. 
+The people, the philosophy and the technology.
 
 # Help!
 
