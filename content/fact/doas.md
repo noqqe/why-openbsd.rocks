@@ -2,9 +2,9 @@
 title: "doas(1)"
 ---
 
-`doas` replaced `sudo` because of various security flaws, an unmaintable and
-bloated a codebase. `doas` is easy to configure and use and suits for most
-usecases. Besides that it has a very small and elegant codebase.
+`doas` replaced `sudo` because of security flaws, a large and complex
+codebase. `doas` is easy to configure and use and suits for most usecases.
+Besides that it has very small and elegant sourcecode.
 
 ```
 permit nopass <user> as root
