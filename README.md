@@ -29,14 +29,14 @@ Feel free to open PRs for:
 to be added as facts:
 
 * OpenSMTPD
-* Relayd 
+* afterboot(8)
 * snmpd
 * webservers chrooted /var/www by default
 * nsd(8)
 * iked(8) 
 * isakmpd(8)
 * netstart.sh 
-* reliable release model (every 6 months)]
+* reliable release model (every 6 months)
 * Unwind DNS Resolver https://twitter.com/jedisct1/status/1088834526053167104?s=21
 * https://twitter.com/openbsd/status/1094750961107697664?s=21
 * malloc sysctl (former malloc.conf)
