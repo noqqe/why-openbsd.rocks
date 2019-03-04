@@ -17,8 +17,8 @@ philosophy and **the technology**.
 This site is made to show people random facts about great functionality and
 ideas behind OpenBSD and transport why people are so enthusiastic about it.
 
-Help spreading the word, share this site and contribute new facts that you
+Help spread the word, share this site and contribute new facts that you
 know of and love about OpenBSD on
-[Github](https://github.com/noqqe/why-openbsd.rocks)
+[GitHub](https://github.com/noqqe/why-openbsd.rocks).
 
 For contact and legal info, see: [Imprint](/imprint)

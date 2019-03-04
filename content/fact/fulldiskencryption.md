@@ -1,5 +1,5 @@
 ---
-title: "Full Disk Encyrption"
+title: "Full Disk Encryption"
 ---
 
 OpenBSD supports FDE since 5.3 using `softraid(4)` and `bioctl(8)`.
