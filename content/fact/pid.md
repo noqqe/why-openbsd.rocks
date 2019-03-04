@@ -3,7 +3,7 @@ title: "PID randomization"
 ---
 
 OpenBSD has randomized PIDs. That means every process that is being spawned
-thats a random (unused) PID from the operating system. This prevents the user
+thats a random (unused) PID from the operating system. This protects the user
 from PID prediction attacks.
 
 Details:
