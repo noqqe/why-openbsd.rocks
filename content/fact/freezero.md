@@ -2,7 +2,7 @@
 title: "freezero(3)"
 ---
 
-The kernel function `freezero(3)`  allows programs to free memory holding
+The `libc` function `freezero(3)`  allows programs to free memory holding
 sensitive data and overwriting it with zeros.
 
 Details:
