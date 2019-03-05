@@ -11,6 +11,6 @@ configurations `carp` can also provide load balancing functionality.
 Details:
 
 * The `carp` device first appeared in OpenBSD 3.5. 
-* [carp(8) - OpenBSD manual pages](http://man.openbsd.org/carp.4)
+* [carp(4) - OpenBSD manual pages](http://man.openbsd.org/carp.4)
 * [hostname.if(5) - OpenBSD manual pages](http://man.openbsd.org/hostname.if.5)
-* [ifconfig(8) - OpenBSD manual pages](http://man.openbsd.org/ifconfig.4)
+* [ifconfig(8) - OpenBSD manual pages](http://man.openbsd.org/ifconfig.8)
