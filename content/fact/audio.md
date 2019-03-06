@@ -4,7 +4,10 @@ title: "Audio recording"
 
 For privacy reasons, the OpenBSD team disabled audio recording for all
 devices by default in the kernel. This can be toggled on/off with a simple
-sysctl change, without rebooting.
+sysctl change, without rebooting, with administrator rights:
+
+    sysctl kern.audio.record=1 # enable at runtime
+    echo kern.audio.record=1 >> /etc/sysctl.conf # set at boot
 
 Details:
 
