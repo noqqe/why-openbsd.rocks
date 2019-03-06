@@ -7,7 +7,8 @@ that, nginx was used and imported in base, but still the webserver was too
 big for the base system.
 
 At some point, Reyk Floeter wrote a minimal HTTP server which replaced all
-externally developed http servers in the base system.
+externally developed http servers in the base system. httpd was first released
+in OpenBSD 5.6
 
 ```
 server "www.example.com" {
@@ -23,3 +24,4 @@ Details:
 * [httpd.conf(5) - OpenBSD manual pages](https://man.openbsd.org/httpd.conf.5)
 * [AsiaBSDCon2015 httpd](http://www.openbsd.org/papers/httpd-asiabsdcon2015.pdf)
 * [httpd(8) - OpenBSD manual pages](https://man.openbsd.org/httpd.8)
+* [OpenBSD 5.6 changelog](https://www.openbsd.org/plus56.html)
