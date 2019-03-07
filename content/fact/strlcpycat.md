@@ -2,8 +2,8 @@
 title: "strlcpy(3), strlcat(3)"
 ---
 
-Kernel function that safely copy/concat strings as an improvement to
-`strncpy(3)`, `strncat(3)`
+This kernel function will safely copy/concat strings, an improvement over
+`strncpy(3)`, `strncat(3)`.
 
 Details:
 

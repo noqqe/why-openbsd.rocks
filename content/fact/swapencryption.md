@@ -2,9 +2,9 @@
 title: "Swap Encryption"
 ---
 
-To protect sensitive information such as passwords from leaking on to disk,
+To protect sensitive information such as passwords from leaking to disk,
 where they can persist for many years, OpenBSD supports encryption of the
-swap partition. And it's enabled by default!
+swap partition. This is enabled by default!
 
 ```
 sysctl -w vm.swapencrypt.enable=1

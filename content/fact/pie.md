@@ -3,10 +3,10 @@ title: "PIE"
 ---
 
 A PIE binary and all of its dependencies are loaded into random locations
-within virtual memory each time the application is executed.
+within virtual memory every time the application is executed.
 
-This brings a lot of randomization to executing the binary of choice which
-(again) makes it hard for an attacker to predict behaviour.
+This heavy use of randomization makes it hard for an attacker to predict the
+binary's behaviour.
 
 Details:
 

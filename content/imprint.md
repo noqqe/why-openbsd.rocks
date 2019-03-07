@@ -2,7 +2,7 @@
 title: "Imprint"
 ---
 
-The german law enforces me to put this here.
+German law forces me to put this here.
 
 ### Imprint
 

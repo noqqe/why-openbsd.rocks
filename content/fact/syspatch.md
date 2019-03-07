@@ -2,10 +2,10 @@
 title: "syspatch(8)"
 ---
 
-A common mistake is that you need to patch and recompile OpenBSD manually
-when security updates need to happen. OpenBSD supports binary patches since
-6.1 using its own tooling `syspatch(8)`! Binary updates are available for amd64, i386,
-and arm64 for the current and previous version of OpenBSD.
+It is a common mistake to manually patch and recompile OpenBSD when security
+updates are required.  Since 6.1, OpenBSD has supported binary patches using
+its own `syspatch(8)` tooling! Binary updates are available for the current and
+previous versions of amd64, i386 and arm64.
 
 Consider subscribing to the announce mailing list to be informed of security
 updates.

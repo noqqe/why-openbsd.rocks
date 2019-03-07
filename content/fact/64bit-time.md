@@ -2,9 +2,9 @@
 title: "64bit Time"
 ---
 
-As one of the first Operating Systems, OpenBSD is safe for the "Year 2038
-Problem". 64bit Time was introduced in 2013, so you don't have to worry about
-the Unix Epoch 32bit issue.
+OpenBSD is one of the first operatings systems to be safe from the "Year 2038
+Problem". 64-bit time was introduced in 2013, so you don't have to worry about
+the Unix Epoch 32-bit issue.
 
 Details:
 

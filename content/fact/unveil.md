@@ -2,14 +2,14 @@
 title: "unveil(2)"
 ---
 
-The `unveil` system call limits the filesystem `open` call to programs to
-only a given set of paths. It's similar to [pledge](/fact/pledge). `unveil` is an
-addition to `pledge`, as it was found that just limiting programs to do `open` is
-not enough, as `open` still means the whole filesystem.
+The `unveil` system call limits the filesystem `open` call to a
+given set of paths. It extends the idea of [pledge](/fact/pledge): 
+simply limiting programs to `open` is insufficient, because `open` is valid 
+for the the whole filesystem.
 
-Why should a program like `passwd(1)`  should have access to more of your
-file system, other than `/etc/passwd` and `/etc/shadow`? If there is
-a security bug in `passwd` effects would be very limited.
+For example, why should a program like `passwd(1)`  have access to your file
+system beyond `/etc/passwd` and `/etc/shadow`? If there is a security bug in
+`passwd` then effects would be quite limited.
 
 Details:
 

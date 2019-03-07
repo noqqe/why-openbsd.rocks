@@ -2,8 +2,8 @@
 title: "freezero(3)"
 ---
 
-The `libc` function `freezero(3)`  allows programs to free memory holding
-sensitive data and overwriting it with zeros.
+The `libc` function `freezero(3)`  allows programs to free memory that holds
+sensitive data, and to overwrite it with zeros.
 
 Details:
 

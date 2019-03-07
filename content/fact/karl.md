@@ -2,9 +2,9 @@
 title: "KARL"
 ---
 
-At every install, upgrade, and boot a new kernel will be generated that has
+At every install, upgrade, and boot a new kernel is generated with
 randomized addresses. A unique and unpredictable kernel is a huge security
-improvement. This is technique is called Kernel Address Randomized Link (KARL).
+improvement. This technique is called Kernel Address Randomized Link (KARL).
 
 Details:
 

@@ -2,7 +2,7 @@
 title: "acme-client(1)"
 ---
 
-OpenBSD implemented their own Let’s Encrypt Client that ships by default in
+OpenBSD implemented its own Let’s Encrypt Client, which ships by default in
 the base system. It has a nice config syntax, sane defaults and is well
 integrated in the OS.
 

@@ -2,10 +2,10 @@
 title: "pledge(2)"
 ---
 
-`pledge` allows you to limit a programs access to system calls very easily.
-This is a huge improvement in security, because why should `cut(1)` ever open
-a socket? Just deny it to do so in first place. If there is a security hole
-in this binary, its possibilities are very limited.
+`pledge` allows you to limit a program's access to system calls very easily.
+This is a huge improvement in security: why should `cut(1)` ever need to open a
+socket? Just deny it the ability to do so. Even if a binary is compromised, its
+chances to misbehave are greatly reduced.
 
 ```
 int
@@ -18,8 +18,8 @@ main(int argc, char *argv[])
 }
 ```
 
-Within 2 releases the OpenBSD Developers managed to introduce `pledge` to most
-of the binaries in the base system.
+Within only two releases, the OpenBSD Developers managed to introduce `pledge`
+to most of the binaries in the base system.
 
 Details:
 

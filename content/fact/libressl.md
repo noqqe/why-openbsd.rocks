@@ -3,11 +3,12 @@ title: "LibreSSL"
 ---
 
 The unmaintainable and bloated OpenSSL Codebase was forked after Heartbleed
-happened. It was massively cleaned up, improved and documented. Besides new
-modern ciphers  FRP256v1, [RFC 5639 EC Brainpool](http://bxr.su/OpenBSD/lib/libssl/src/crypto/ec/ec_curve.c#_EC_brainpoolP160r1),
+was revealed. The code was thoroughly cleaned up, improved and documented. Besides new
+modern ciphers  FRP256v1, [RFC 5639 EC
+Brainpool](http://bxr.su/OpenBSD/lib/libssl/src/crypto/ec/ec_curve.c#_EC_brainpoolP160r1),
 [ChaCha20](http://bxr.su/OpenBSD/lib/libssl/src/crypto/chacha/chacha.c),
 [Poly1305](http://bxr.su/OpenBSD/lib/libssl/src/crypto/poly1305/poly1305.c),
-LibreSSL is API compatible with OpenSSL without the mess and actively
+LibreSSL is API compatible with OpenSSL but without the mess. It is actively
 developed.
 
 Details:

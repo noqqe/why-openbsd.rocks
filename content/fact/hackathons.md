@@ -2,9 +2,13 @@
 title: "Hackathons"
 ---
 
-June 1999 is first time when a group of OpenBSD developers met in one space to began working on cryptographic code. Now,
-hackathons for OpenBSD take place three to four times a year and cover a varity of improvements to the codebase.
-Hackathons are available to developers, or invite only, and held all over the word.
+June 1999 was the first time that a group of OpenBSD developers met in one
+space to begin working on cryptographic code. Hackathons for OpenBSD now take
+place three to four times a year and cover a variety of improvements to the
+codebase.  
+
+Hackathons are open to developers, or by invite only, and are held
+all over the world.
 
 Funding for hackathons is made possible by donations from people like you. Consider donating to the
 OpenBSD Foundation to continue funding for these events.

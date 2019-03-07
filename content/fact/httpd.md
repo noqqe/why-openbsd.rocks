@@ -2,9 +2,9 @@
 title: "httpd(8)"
 ---
 
-OpenBSD had a patched version of Apache httpd imported for a long time. After
-that, nginx was used and imported in base, but still the webserver was too
-big for the base system.
+For a long time OpenBSD used a patched version of Apache httpd. After that,
+nginx was imported into base, but even that was still too big for the base
+system.
 
 At some point, Reyk Floeter wrote a minimal HTTP server which replaced all
 externally developed http servers in the base system.

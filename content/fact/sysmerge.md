@@ -2,9 +2,9 @@
 title: "sysmerge(8)"
 ---
 
-`sysmerge` is a tool that nicely helps you migrating your config files during
-a release upgrade. This includes line by line merging using `sdiff`. Its
-fully integrated in the upgrade process.
+The `sysmerge` tool simplifies the migration of your config files during
+a release upgrade. This includes line-by-line merging using `sdiff`. It is
+fully integrated into the upgrade process.
 
 Details:
 

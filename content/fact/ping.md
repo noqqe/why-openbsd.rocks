@@ -2,14 +2,11 @@
 title: "ping(8) randomness"
 ---
 
-In `ping(8)` and `ping6(8)`, obfuscate the monotonic clock values put on the wire
+Both `ping(8)` and `ping6(8)` obfuscate the transmitted monotonic clock values
 by offsetting them with a random value.
 
-By default fill the ping payload with a ChaCha stream instead of an unvarying
-payload.
-
-This helps the user hiding the system time from the attacker and prevents
-from OS detection.
+ChaCha streams are used to vary every payload. This helps the user to hide the
+system time from the attacker and prevents OS detection.
 
 More Details:
 

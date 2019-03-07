@@ -2,9 +2,9 @@
 title: "Privilege Separation"
 ---
 
-OpenBSD runs nearly all of its standard daemons in base system privilege
-separated. `smtpd`, `httpd` , `snmpd`, `sshd`, and `syslogd` are only a few of
-them.
+OpenBSD runs nearly all of the standard base system daemons with privilege
+separation. These include `smtpd`, `httpd` , `snmpd`, `sshd`, and `syslogd` to
+name just a few.
 
 Details:
 

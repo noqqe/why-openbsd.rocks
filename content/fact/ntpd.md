@@ -3,7 +3,7 @@ title: "ntpd(8)"
 ---
 
 The base system ships with its own implementation of `ntp` which also supports
-HTTPS Constraints that helps verifying the time you got by unauthenticated
+HTTPS Constraints. This helps to verify the times received in unauthenticated
 UDP packets.
 
 ```
@@ -11,8 +11,8 @@ servers pool.ntp.org
 constraints from "https://www.google.com/"
 ```
 
-OpenNTPD has become a portable software project and is also available in
-Linux distributions.
+OpenNTPD has become a portable software project and is also available in Linux
+distributions.
 
 Details:
 

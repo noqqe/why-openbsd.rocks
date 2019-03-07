@@ -2,9 +2,8 @@
 title: "UTF-8 only"
 ---
 
-Having support for UTF-8 in `libc` since 2010, OpenBSD removed support for all
-non-UTF8 locales in 2015! You never have to deal with charset locale issues
-again.
+UTF-8 in has been supported in `libc` since 2010, and OpenBSD removed support for all
+non-UTF-8 locales in 2015! You will never again have to deal with locale charset issues.
 
 Details:
 

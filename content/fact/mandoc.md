@@ -2,9 +2,9 @@
 title: "mandoc(1)"
 ---
 
-Manpages are completly built with advanced and unified tooling around
-`mandoc`. Ingo Schwarze spent a lot of time importing, fixing and improving
-documentation in general.
+All man pages are built with the advanced and unified tooling around `mandoc`.
+Ingo Schwarze spent a lot of time importing, fixing and improving documentation
+in general.
 
 Details:
 

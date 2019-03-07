@@ -2,8 +2,9 @@
 title: "pf(4)"
 ---
 
-`pf` is OpenBSDs very own firewall. Its simple, feature rich with easy readable
-configuration. It supports the use of variables, lists and tables .
+`pf` is OpenBSD's very own firewall. It is simple and feature-rich and its
+configuration files are easy to read.  It supports the use of variables, lists
+and tables.
 
 ```
 tcpin = "{ http, https, ssh }"
