@@ -8,7 +8,7 @@ system.
 
 Reyk Floeter and Pierre-Yves Ritschard wrote a minimal HTTP
 server, which replaced all externally developed http servers in the base system
-For OpenBSD release 5.6.
+for OpenBSD release 5.6.
 
 ```
 server "www.example.com" {
