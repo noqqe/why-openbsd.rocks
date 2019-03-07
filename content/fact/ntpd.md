@@ -20,3 +20,4 @@ Details:
 * [ntpd(8) - OpenBSD manual pages](https://man.openbsd.org/ntpd)
 * [ntpd.conf Constraints](https://man.openbsd.org/ntpd.conf.5#CONSTRAINTS)
 * [OpenNTPD](http://www.openntpd.org/)
+* [OpenBSD 3.6](https://openbsd.org/36.html)
