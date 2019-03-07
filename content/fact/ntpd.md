@@ -2,9 +2,9 @@
 title: "ntpd(8)"
 ---
 
-The base system ships with its own implementation of `ntp` which also supports
-HTTPS Constraints. This helps to verify the times received in unauthenticated
-UDP packets.
+Since OpenBSD 3.6, the base system ships with its own implementation of `ntp`
+which also supports HTTPS Constraints. This helps to verify the times received
+in unauthenticated UDP packets.
 
 ```
 servers pool.ntp.org
