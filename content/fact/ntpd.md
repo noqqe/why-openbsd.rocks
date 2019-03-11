@@ -2,8 +2,8 @@
 title: "ntpd(8)"
 ---
 
-Since OpenBSD 3.6, the base system ships with its own implementation of `ntp`
-which also supports HTTPS Constraints. This helps to verify the times received
+Since OpenBSD 3.6, the base system ships with its own implementation of `ntp`.
+OpenBSD 5.7 introduced HTTPS Constraints, which helps to verify the times received
 in unauthenticated UDP packets.
 
 ```
@@ -21,3 +21,4 @@ Details:
 * [ntpd.conf Constraints](https://man.openbsd.org/ntpd.conf.5#CONSTRAINTS)
 * [OpenNTPD](http://www.openntpd.org/)
 * [OpenBSD 3.6](https://openbsd.org/36.html)
+* [OpenBSD 5.7](https://www.openbsd.org/57.html)
