@@ -1,0 +1,15 @@
+---
+title: "openrsync"
+---
+
+In early 2019 OpenBSD imported `openrsync` to the base system as a free and
+open alternative to traditinal `rsync`.
+
+`openrsync` has a reduced, simplified set of features, an acceptable
+[license](/fact/license/) (BSD) while still being compatible with traditional
+`rsync`.
+
+Details:
+
+* [OpenBSD on Tweet about openrsync](https://twitter.com/openbsd/status/1094750961107697664?s=21)
+* [GitHub - kristapsdz/openrsync: BSD-licensed implementation of rsync](https://github.com/kristapsdz/openrsync)

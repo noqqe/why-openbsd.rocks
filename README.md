@@ -36,7 +36,6 @@ to be added as facts:
 * isakmpd(8)
 * netstart.sh
 * Unwind DNS Resolver https://twitter.com/jedisct1/status/1088834526053167104?s=21
-* openrsync https://twitter.com/openbsd/status/1094750961107697664?s=21
 * malloc sysctl (former malloc.conf)
 * patched dhclient and priv sep
 * only 1 utf-8 locale - C.UTF-8
