@@ -3,8 +3,7 @@ title: "strlcpy(3), strlcat(3)"
 ---
 
 This kernel function will safely copy/concat strings, an improvement over
-`[strncpy(3)](https://man.openbsd.org/strncpy.3)`,
-`[strncat(3)](https://man.openbsd.org/strncat.3)`.
+[strncpy(3)](https://man.openbsd.org/strncpy.3), [strncat(3)](https://man.openbsd.org/strncat.3).
 
 Details:
 
