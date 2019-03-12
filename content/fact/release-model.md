@@ -4,6 +4,8 @@ title: "Reliable release model"
 
 OpenBSD has a reliable release model. Every 6 months a new release of the
 operating system will be released with new features and stability additions.
+Only the two most recent OpenBSD releases receive security and reliability
+fixes for the base system.
 
 The version scheme is defined 5.8, 5.9, 6.0, 6.1.
 
