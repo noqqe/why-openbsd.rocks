@@ -9,7 +9,21 @@ webserver installation running.
 This is also true for HTTP daemons from packages (`apache2`, `nginx`).
 
 ```
-$ cat /etc/passwd
+$ userinfo www
+login   www
+passwd  *
+uid     67
+groups  www
+change  NEVER
+class
+gecos   HTTP Server
+dir     /var/www
+shell   /sbin/nologin
+expire  NEVER
+```
+
+```
+$ grep "www" /etc/passwd
 www:*:67:67:HTTP Server:/var/www:/sbin/nologin
 ```
 
