@@ -24,10 +24,11 @@ match for local action "local"
 match for any action "relay"
 ```
 
-OpenSMTP was audited and has a portable version that is available in various
+OpenSMTPD was audited and has a portable version that is available in various
 Linux distributions.
 
 Details:
 
 * [OpenSMTPD - Wikipedia](https://en.wikipedia.org/wiki/OpenSMTPD)
 * [OpenSMTPD](https://www.opensmtpd.org/)
+* [smtpd.conf(5) - OpenBSD manual pages](https://man.openbsd.org/smtpd.conf.5)
