@@ -1,5 +1,5 @@
----
 title: "Reliable release model"
+---
 ---
 
 OpenBSD has a reliable release model. Every 6 months a new release of the
@@ -11,6 +11,7 @@ Security fixes will be published as Errata and can be applied using
 [syspatch](/fact/syspatch/)
 
 Details:
+
 * [OpenBSD version history - Wikipedia](https://en.wikipedia.org/wiki/OpenBSD_version_history)
 * [OpenBSD version numbers - flak](https://flak.tedunangst.com/post/OpenBSD-version-numbers)
 * [OpenBSD: Errata and Patches](https://www.openbsd.org/errata.html)

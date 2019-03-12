@@ -30,7 +30,6 @@ Feel free to open PRs for:
 
 to be added as facts:
 
-* OpenSMTPD
 * afterboot(8)
 * snmpd
 * iked(8)
