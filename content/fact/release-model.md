@@ -1,5 +1,5 @@
-title: "Reliable release model"
 ---
+title: "Reliable release model"
 ---
 
 OpenBSD has a reliable release model. Every 6 months a new release of the
