@@ -10,9 +10,6 @@ daemon was needed for the base system of the operating system and no there
 were no suitable alternatives. The goals are simplicity, security and
 reliability with an acceptable [license](/fact/license/) (ISC).
 
-A major change in configuration was made with version 6.4, integrated into
- OpenBSD 6.4.
-
 ```
 table aliases file:/etc/mail/aliases
 table secrets file:/etc/mail/secrets
