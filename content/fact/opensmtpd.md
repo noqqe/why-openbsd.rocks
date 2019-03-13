@@ -18,7 +18,7 @@ listen on lo0
 
 action "local" mbox alias <aliases>
 action "relay" relay host smtp+tls://bob@smtp.example.com \
-	auth <secrets>
+    auth <secrets>
 
 match for local action "local"
 match for any action "relay"
@@ -32,3 +32,4 @@ Details:
 * [OpenSMTPD - Wikipedia](https://en.wikipedia.org/wiki/OpenSMTPD)
 * [OpenSMTPD](https://www.opensmtpd.org/)
 * [smtpd.conf(5) - OpenBSD manual pages](https://man.openbsd.org/smtpd.conf.5)
+* [OpenBSD 5.3](https://openbsd.org/53.html), [OpenBSD 6.4](https://openbsd.org/64.html)
