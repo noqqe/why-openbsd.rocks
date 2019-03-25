@@ -9,7 +9,8 @@ OpenBSD has *sane and secure defaults* set in daemons and configurations.
 
 This means you don't have to tweak your freshly installed operating system to
 get services running. There is no hardening process required when you setup
-`sshd(8)`.
+`sshd(8)`, for example. Just as for every other daemon or component in the
+[base](/fact/base-system-concept/) system.
 
 Details:
 
