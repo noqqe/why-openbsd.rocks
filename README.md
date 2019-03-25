@@ -41,8 +41,8 @@ to be added as facts:
 * only 1 utf-8 locale - C.UTF-8
 * [arc4random(3) - OpenBSD manual pages](https://man.openbsd.org/arc4random.3)
 * rcctl
-* sane defaults
 * consistency in configuration files
 * RETGUARD Stack protector https://marc.info/?l=openbsd-cvs&m=152824407931917&w=2
 * clang as default compiler / no gcc
 * /etc/examples/ !
+* https://man.openbsd.org/securelevel.7
