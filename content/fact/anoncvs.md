@@ -14,9 +14,7 @@ To resolve this conflict we created Anonymous CVS — a mechanism that lets anon
 a source repository without compromising its security.
 ```
 
-OpenBSD continues to use AnonCVS today. It's part of the base OS, so you too can see the source code - 
-something we take for granted today.
-
+OpenBSD continues to use AnonCVS to this day.
 
 Details:
 
