@@ -43,6 +43,6 @@ to be added as facts:
 * rcctl
 * consistency in configuration files
 * RETGUARD Stack protector https://marc.info/?l=openbsd-cvs&m=152824407931917&w=2
-* clang as default compiler / no gcc
+* clang as default compiler on certain architectures
 * /etc/examples/ !
 * https://man.openbsd.org/securelevel.7
