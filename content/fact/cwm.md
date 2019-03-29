@@ -2,13 +2,14 @@
 title: "cwm(1)"
 ---
 
-Marius Aamodt Eriksen and a few others developed cwm for X11, which contains
+Marius Aamodt Eriksen and a few others developed `cwm` for X11, which contains
 many features that concentrate on the efficiency and transparency of window
-management, while maintaining the simplest and most pleasant aesthetic. cwm was
-released in November 2007 and replaced wm2 in OpenBSD 4.2.
+management, while maintaining the simplest and most pleasant aesthetic. `cwm` was
+released in November 2007 and replaced `wm2` in OpenBSD 4.2.
 
 Details:
 
+* [cwm(1)](https://man.openbsd.org/cwm)
 * [Getting started with cwm](https://undeadly.org/cgi?action=article&sid=20090502141551)
 * [OpenBSD 4.2 Release](https://www.openbsd.org/42.html)
 * [OpenBSD 4.2 Changelog](https://www.openbsd.org/plus42.html)
