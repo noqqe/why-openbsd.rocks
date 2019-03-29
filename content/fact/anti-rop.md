@@ -14,5 +14,5 @@ With randomized symbols, this is not an attack vector anymore.
 Details:
 
 * [‘anti-ROP mechanism in libc’ - MARC](https://marc.info/?l=openbsd-tech&m=146159002802803&w=2)
-* [OpenBSD 5.9 Changelog](https://www.openbsd.org/plus59.html)
+* [OpenBSD 6.0 Changelog](https://www.openbsd.org/plus60.html)
 * [Return-oriented programming - Wikipedia](https://en.wikipedia.org/wiki/Return-oriented_programming)
