@@ -9,7 +9,7 @@ webserver installation running.
 This is also true for HTTP daemons from packages (`apache2`, `nginx`).
 
 ```
-$ grep "www" /etc/passwd
+$ getent passwd www
 www:*:67:67:HTTP Server:/var/www:/sbin/nologin
 ```
 
