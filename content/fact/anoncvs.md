@@ -2,8 +2,9 @@
 title: "AnonCVS and open source repos"
 ---
 
-OpenBSD was the first open source OS project, and probably the first open source project, to make its
-source code available for all to see in real time - no tarball downloads, no user accounts needed.
+OpenBSD pioneered anonymous CVS, which allows anyone to extract the full
+source tree for any version of OpenBSD at any time - no tarball downloads,
+no user accounts needed.
 
 ```
 In the Fall of 1995 when we started our own open source operating system project called OpenBSD,
@@ -14,9 +15,10 @@ To resolve this conflict we created Anonymous CVS — a mechanism that lets anon
 a source repository without compromising its security.
 ```
 
-OpenBSD continues to use AnonCVS to this day. 
+The ability to view how the source code has changed over time, in any
+open source project, is something we take for granted nowadays.
 
-Seeing the source code of your operating system is something we take for granted today.
+OpenBSD continues to use AnonCVS to this day.
 
 Details:
 
