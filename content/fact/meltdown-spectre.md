@@ -8,7 +8,7 @@ page tables for the kernel and userland.
 The next generation of Meltdown was mitigated in this way. OpenBSD was no longer
 affected as memory could not be inappropriately accessed.
 
-Egual, OpenBSD has disabled Intel’s hyper-threading technology, citing security
+OpenBSD has also disabled Intel’s hyper-threading technology, citing security
 concerns – seemingly, Spectre-style concerns, with “a new hw.smt sysctl”.
 
 Details:
