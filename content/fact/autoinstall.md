@@ -2,7 +2,7 @@
 title: "autoinstall(8)"
 ---
 
-`autoinstall` offers system administators a way to fully automate their
+`autoinstall` offers system administrators a way to fully automate their
 OpenBSD Installations in a very simple and efficient way. This functionality
 is actually built into the Operating System.
 

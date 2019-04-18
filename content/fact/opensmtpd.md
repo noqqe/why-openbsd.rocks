@@ -6,7 +6,7 @@ The OpenBSD base system contained a working and secured `sendmail` setup for
 a long time. It was replaced by OpenSMTPD in OpenBSD 5.3 (2013).
 
 OpenSMTPD was written by OpenBSD Developers from scratch. A simple mail
-daemon was needed for the base system of the operating system and no there
+daemon was needed for the base system of the operating system and there
 were no suitable alternatives. The goals are simplicity, security and
 reliability with an acceptable [license](/fact/license/) (ISC).
 

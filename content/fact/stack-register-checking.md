@@ -9,7 +9,7 @@ A memory object should have the fewest permissions possible: typically `read`,
 If you want to use memory as a stack, you must `mmap` it with that flag bit.
 
 When a system call happens, we check to see if the stack-pointer register
-points to such a page. If not, the program is killed. The ABI is tighter as as
+points to such a page. If not, the program is killed. The ABI is tighter as a
 result. You may no longer point your stack register at non-stack memory, or
 your program will die.
 
