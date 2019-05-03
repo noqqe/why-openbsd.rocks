@@ -11,7 +11,7 @@ securelevel is a security mechanism in OpenBSD kernel. It provides four levels
   file flags can be cleared using chflags.
 * 1 (Secure mode) the raw memory devices can not be written to, the raw devices
   of mounted file systems can not be written to, important kernel variables are
-  locked down - Actually, it's the mode by default.
+  locked down - Actually, this is the mode by default.
 * 2 (Highly secure mode) raw disk devices can not be written to, certain
   time related functions are locked down so the time cannot be set in the
   pastand pf rules may not be altered. This ultimate mode is a last line of
