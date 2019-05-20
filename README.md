@@ -30,7 +30,6 @@ Feel free to open PRs for:
 
 to be added as facts:
 
-* afterboot(8)
 * snmpd
 * iked(8)
 * isakmpd(8)
@@ -39,10 +38,7 @@ to be added as facts:
 * malloc sysctl (former malloc.conf)
 * patched dhclient and priv sep
 * only 1 utf-8 locale - C.UTF-8
-* [arc4random(3) - OpenBSD manual pages](https://man.openbsd.org/arc4random.3)
-* rcctl
 * consistency in configuration files
 * RETGUARD Stack protector https://marc.info/?l=openbsd-cvs&m=152824407931917&w=2
 * clang as default compiler on certain architectures
 * /etc/examples/ !
-* https://man.openbsd.org/securelevel.7
