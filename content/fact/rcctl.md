@@ -9,6 +9,7 @@ Compared to systemd or SysVinit, rcctl is very lightweight, and stable and
 easy to understand and use.
 
 Details:
+
 * [rcctl(8) - OpenBSD manual pages](https://man.openbsd.org/rcctl.8)
 * [rc.conf.local(8) - OpenBSD manual pages](https://man.openbsd.org/rc.conf.local.8)
 * [OpenBSD 5.7](https://www.openbsd.org/57.html)
