@@ -2,12 +2,11 @@
 title: rcctl(8)
 ---
 
-rcctl: the rc.conf.local management tool!
-
 rcctl is a simple utility to maintain rc.conf.local(8), the system daemon
- configuration database for OpenBSD.
+configuration database for OpenBSD.
 
-rcctl first appeared in OpenBSD 5.7, in 08/2014.
+Compared to systemd or SysVinit, rcctl is very lightweight, and stable and 
+easy to understand and use.
 
 Details:
 * [rcctl(8) - OpenBSD manual pages](https://man.openbsd.org/rcctl.8)
