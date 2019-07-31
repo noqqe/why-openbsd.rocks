@@ -7,7 +7,7 @@ OpenBSD. *Every single* binary, library, driver or script delivered in the
 base system has its own manpage.
 
 ```
-man cat         # of cource, base system binary
+man cat         # of course, base system binary
 man vio         # the virtual network driver
 man null        # the /dev/null device
 man daily       # the cronjobs that maintain your system
