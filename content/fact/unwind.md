@@ -13,9 +13,9 @@ if DNS is no longer blocked and switches back to querying nameservers
 itself.
 
 `unwind` is usually started at boot time, and can be enabled by 
-setting the following in /etc/rc.conf.local:
+using the tool [rcctl](/fact/rcctl):
 
-`unwind_flags=""`
+`# rcctl enable unwind`
 
 Details:
 
