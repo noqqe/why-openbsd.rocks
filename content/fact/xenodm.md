@@ -12,6 +12,6 @@ On OpenBSD 6.5, xenodm is absolutly necessary to start the X server, because it 
 Details: 
 
 * [xenodm - OpenBSD manpage](https://man.openbsd.org/xenodm.1)
-* [g2k16 Hackathon Report: Matthieu Herrb on xenodm](undeadly.org/cgi?action=article&sid=20160911231712)
+* [g2k16 Hackathon Report: Matthieu Herrb on xenodm](http://undeadly.org/cgi?action=article&sid=20160911231712)
 * [OpenBSD 6.1](https://www.openbsd.org/61.html)
 * [OpenBSD 6.5](https://www.openbsd.org/65.html)
