@@ -2,7 +2,7 @@
 title: "doas(1)"
 ---
 
-`doas` replaced `sudo` because of the former's security flaws and large,
+`doas` replaced `sudo` because of the latter's security flaws and large,
 complex codebase. `doas` is easy to configure and use and suits most use
 cases.  Its source code is small and elegant too.
 
