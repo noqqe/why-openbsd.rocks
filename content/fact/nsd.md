@@ -5,7 +5,7 @@ title: "nsd(8)"
 `nsd(8)` is a complete implementation of an authoritative DNS nameserver developed
 by NLnet Labs and RIPE NCC.
 
-`nsd` is lightweight, reliable and shipped within OpenBSDs base system and
+`nsd` is lightweight, reliable and shipped within OpenBSD's base system and
 therefore available out of the box.
 
 Details:
