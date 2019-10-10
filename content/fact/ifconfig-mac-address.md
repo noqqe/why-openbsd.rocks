@@ -1,5 +1,5 @@
 ---
-title: "Random MAC addresses in ifconfig(8)
+title: "Random MAC addresses in ifconfig(8)"
 ---
 
 OpenBSD let's you have randomized MAC addresses via `ifconfig(8)`
