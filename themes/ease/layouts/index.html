@@ -4,9 +4,8 @@
 
     <script>
       let facts = [
-        {{ range (where .Pages "Type" "fact" )}}
-            {{ .Permalink }},
-        {{ end }}
+        {{ range (where .Site.Pages "Type" "fact" )}}
+            {{ .Permalink }},{{ end }}
       ];
       factNumber = Math.floor(Math.random() * facts.length);
       putFile("fact", facts[factNumber]);
