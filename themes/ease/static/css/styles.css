@@ -49,10 +49,11 @@ body {
     text-decoration-line: underline;
 }
 
-#OpenBSD :link {
+#OpenBSD :link, #OpenBSD :hover {
     color: #4b4848;
     word-spacing: -0.3em;
     font-size: 0.75em;
+    text-decoration-line: none;
 }
 
 #sitewrapper {
