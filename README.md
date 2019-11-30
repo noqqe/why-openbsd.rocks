@@ -37,7 +37,6 @@ to be added as facts:
 * malloc sysctl (former malloc.conf)
 * patched dhclient and priv sep
 * only 1 utf-8 locale - C.UTF-8
-* consistency in configuration files
 * RETGUARD Stack protector https://marc.info/?l=openbsd-cvs&m=152824407931917&w=2
 * clang as default compiler on certain architectures
 * /etc/examples/ !
