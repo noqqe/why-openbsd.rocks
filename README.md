@@ -1,4 +1,4 @@
-# Why OpenBSD rocks
+# Wyhy OpenBSD rocks
 
 The idea is to create a website that shows great things in OpenBSD to people interested in using it.
 
@@ -40,3 +40,5 @@ to be added as facts:
 * RETGUARD Stack protector https://marc.info/?l=openbsd-cvs&m=152824407931917&w=2
 * clang as default compiler on certain architectures
 * /etc/examples/ !
+* Happy Eyeballs https://undeadly.org/cgi?action=article;sid=20191128040647
+* ipstack interface validation https://undeadly.org/cgi?action=article;sid=20191209024432
