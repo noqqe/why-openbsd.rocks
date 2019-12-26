@@ -7,7 +7,7 @@ title: "xenodm: the secure X Display manager"
 xenodm is a simplified fork of xdm, lightweight, more secure, rid of XDMCP support, because of many security vulnerabilities. 
 It support only the BSDauth code used in OpenBSD. 
 
-On OpenBSD 6.5, xenodm is absolutly necessary to start the X server, because it no longer has setuid rights enabled by default.
+On OpenBSD 6.5, xenodm is absolutely necessary to start the X server, because it no longer has setuid rights enabled by default.
 
 Details: 
 
