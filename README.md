@@ -1,4 +1,4 @@
-# Wyhy OpenBSD rocks
+# Why OpenBSD rocks
 
 The idea is to create a website that shows great things in OpenBSD to people interested in using it.
 
