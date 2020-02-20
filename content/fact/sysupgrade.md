@@ -14,5 +14,5 @@ using the files in /home/_sysupgrade.
 
 Details:
 
-* sysupgrade first appeared in OpenBSD 6.6.
+* [sysupgrade first appeared in OpenBSD 6.6](https://www.openbsd.org/66.html)
 * [sysupgrade(8) - OpenBSD manual pages](https://man.openbsd.org/sysupgrade.8)
