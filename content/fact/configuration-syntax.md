@@ -2,10 +2,10 @@
 title: "Configuration syntax"
 ---
 
-All OpenBSD daemons config files follow a certain scheme. scheme
-is similar to [pf](/pf). Even though there is no clear specification, the
+All daemons written by and for OpenBSD have config files following a certain scheme;
+this scheme is similar to [pf](/pf). Even though there is no formal specification, the
 unified and readable syntax and vocabulary make OpenBSDs daemons easy to
-understand.
+understand and configure.
 
 acme-client.conf
 ```
