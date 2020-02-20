@@ -40,4 +40,4 @@ Details:
 * [unwind.conf(5)](https://man.openbsd.org/unwind.conf.5)
 * [httpd.conf(5)](https://man.openbsd.org/httpd.conf.5)
 * [relayd.conf(5)](https://man.openbsd.org/relayd.conf.5)
-* [smtpd.conf(5)](https://man.openbsd.org/smtpd.conf.5) also known as [OpenSMTPD](/fact/OpenSMTPD.md)
+* [smtpd.conf(5)](https://man.openbsd.org/smtpd.conf.5) also known as [OpenSMTPD](https://OpenSMTPD.org)
