@@ -39,6 +39,5 @@ to be added as facts:
 * only 1 utf-8 locale - C.UTF-8
 * RETGUARD Stack protector https://marc.info/?l=openbsd-cvs&m=152824407931917&w=2
 * clang as default compiler on certain architectures
-* /etc/examples/ !
 * Happy Eyeballs https://undeadly.org/cgi?action=article;sid=20191128040647
 * ipstack interface validation https://undeadly.org/cgi?action=article;sid=20191209024432
