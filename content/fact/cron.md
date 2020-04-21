@@ -17,8 +17,10 @@ Example:
 0~30 1 * * * [-nsq] echo foo
 ```
 
+These features are included in OpenBSD 6.7.
+
 Details:
 
 * [OpenBSD_src on Twitter](https://twitter.com/OpenBSD_src/status/1250248871231361024)
-* ['~' Pperator (marc.info)](https://marc.info/?l=openbsd-cvs&m=158691599313802&w=2)
+* [~ Operator (marc.info)](https://marc.info/?l=openbsd-cvs&m=158691599313802&w=2)
 * [-s Operator (marc.info)](https://marc.info/?l=openbsd-cvs&m=158705953406819&w=2)
