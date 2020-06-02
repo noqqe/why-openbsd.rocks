@@ -12,7 +12,10 @@ verifies them with [signify(1)](https://man.openbsd.org/signify.1), and copies b
 automatically choose /bsd.upgrade, triggering a one-shot upgrade
 using the files in /home/_sysupgrade.
 
+Since OpenBSD 6.7, **sysupgrade** run `fw_update` before ugrading.
+
 Details:
 
-* [sysupgrade first appeared in OpenBSD 6.6](https://www.openbsd.org/66.html)
+* sysupgrade first appeared in [OpenBSD 6.6](https://openbsd.org/66.html).
 * [sysupgrade(8) - OpenBSD manual pages](https://man.openbsd.org/sysupgrade.8)
+* [OpenBSD 6.7](https://openbsd.org/67.html)
