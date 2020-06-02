@@ -2,16 +2,15 @@
 title: "FFS2: Enhanced Fast Filesystem"
 ---
 
-**FFS2** is the new filesystem, by default, since OpenBSD 6.7. It means 
-*Enhanced Fast Filesystem*.
+**FFS2** is the new filesystem by default on nearly all architectures, since OpenBSD 6.7.
 
 Benefits: 
 
-* FFS2 is faster than its predecessor FFS to create the filesystem, but 
-	also to analyze it with `fsck(8)`
-* FFS2 use 64-bit timestamps and block numbers; so it is not subject to 
+* FFS2 is faster than its predecessor FFS when creating the filesystem, 
+	as well as analyzing it with `fsck(8)`
+* FFS2 uses 64-bit timestamps and block numbers; so it is not subject to 
 	the Y2038 bug.
-* FFS2 supports very large partition (>= 1TB, since 4.2).
+* FFS2 supports very large partitions (>= 1TB, since 4.2).
 
 Details:
 * FFS2 first appeared in [OpenBSD 4.2](https://www.openbsd.org/42.html).
