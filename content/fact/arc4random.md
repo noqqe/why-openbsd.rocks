@@ -4,7 +4,7 @@ title: arc4random(3)
 
 OpenBSD has its own cryptographic random number generator.
 
-Whereever random input is needed, arc4random is used. arc4random is 
+Wherever random input is needed, arc4random is used. arc4random is 
 an abstraction layer for currently considered as safe ciphers and 
 produces ChaCha20 ciphers at the moment
 

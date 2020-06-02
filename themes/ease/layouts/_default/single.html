@@ -3,13 +3,13 @@
 <body class="item">
   <div id="sitewrapper">
     <div id="contentwrapper">
-      <div class="itemwrapper">
+      {{ partial "banner.html" . }}
+      <div class="itemwrapper" id="fact">
         <header>
           <h1 itemprop="headline">
-             {{ .Title }} <a itemprop="mainEntityOfPage" style="font-size: 15pt;" href="{{ .Permalink }}">(&infin;)</a>
+            {{ .Title }} <a itemprop="mainEntityOfPage" style="font-size: 15pt;" href="{{ .Permalink }}">(&infin;)</a>
           </h1>
         </header>
-        <hr>
         <div class="itemcontent" itemprop="articleBody">
           {{ .Content }}
           {{ partial "menu.html" . }}

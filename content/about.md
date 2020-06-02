@@ -1,5 +1,5 @@
 ---
-title: "Why OpenBSD rocks - About"
+title: "About"
 ---
 
 Every now and then (at conferences, the office, the local hackerspace) people

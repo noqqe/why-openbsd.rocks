@@ -1,22 +1,24 @@
 {{ partial "header.html" . }}
+
 <body class="item">
   <div id="sitewrapper">
     <div id="contentwrapper">
-      <div class="itemwrapper">
+      {{ partial "banner.html" . }}
+      <div class="itemwrapper" id="fact">
         <header>
-          <h1>Why OpenBSD rocks - The facts</h1>
+          <h1>The facts</h1>
         </header>
-        <hr>
         <div class="itemcontent">
-          <p>A list of all the great things that OpenBSD has. Why this site exists, see <a href="/about/">About</a>.
-        <ul>
-          {{ range where .Pages "Type" "fact" }}
-          <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-          </li>
-          {{ end }}
-        </ul>
+          <p>A list of all the great things that OpenBSD has. Why this site exists, see <a href="/about/">About</a>.</p>
+          <ul>
+            {{ range where .Pages "Type" "fact" }}
+            <li>
+              <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
 
 {{ partial "menu.html" . }}
 {{ partial "footer.html" . }}
-

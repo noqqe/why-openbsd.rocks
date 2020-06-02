@@ -34,11 +34,10 @@ to be added as facts:
 * iked(8)
 * isakmpd(8)
 * netstart.sh
-* Unwind DNS Resolver https://twitter.com/jedisct1/status/1088834526053167104?s=21
 * malloc sysctl (former malloc.conf)
 * patched dhclient and priv sep
 * only 1 utf-8 locale - C.UTF-8
-* consistency in configuration files
 * RETGUARD Stack protector https://marc.info/?l=openbsd-cvs&m=152824407931917&w=2
 * clang as default compiler on certain architectures
-* /etc/examples/ !
+* Happy Eyeballs https://undeadly.org/cgi?action=article;sid=20191128040647
+* ipstack interface validation https://undeadly.org/cgi?action=article;sid=20191209024432

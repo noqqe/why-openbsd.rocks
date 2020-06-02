@@ -31,6 +31,31 @@ body {
     display: inline;
 }
 
+#OpenBSD :link i, #OpenBSD :visited i {
+    color: #F2CA30;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5em;
+    text-shadow: 2px 2px black;
+    text-decoration-color: #CF4229;
+    text-decoration-line: underline;
+}
+
+#OpenBSD :link b, #OpenBSD :visited b {
+    color: #CF4229;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5em;
+    text-shadow: 2px 2px black;
+    text-decoration-color: #CF4229;
+    text-decoration-line: underline;
+}
+
+#OpenBSD :link, #OpenBSD :hover {
+    color: #4b4848;
+    word-spacing: -0.3em;
+    font-size: 0.75em;
+    text-decoration-line: none;
+}
+
 #sitewrapper {
   padding: 0px 10px 0px 10px;
 }

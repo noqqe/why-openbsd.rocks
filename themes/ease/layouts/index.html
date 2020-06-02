@@ -1,14 +1,30 @@
 {{ partial "header.html" . }}
 
-<body id="fact" class="item">
+<body class="item">
+  <div id="sitewrapper">
+    <div id="contentwrapper">
+      {{ partial "banner.html" . }}
+      <div class="itemwrapper" id="fact">
+        <noscript>
+          <p>see <a href="{{ .Site.BaseURL}}fact">All facts</a></p>
+        </noscript>
+      </div>
+      <script>
+        (function (currentLocation)
+        {
+          var facts = [
+            {{ range (where .Site.Pages "Type" "fact" )}}
+                {{ .Permalink }},{{ end }}
+          ];
 
-    <script>
-      let facts = [
-        {{ range (where .Pages "Type" "fact" )}}
-            {{ .Permalink }},
-        {{ end }}
-      ];
-      factNumber = Math.floor(Math.random() * facts.length);
-      putFile("fact", facts[factNumber]);
-    </script>
+          var loadRandom = function ()
+          {
+            var factNumber = Math.floor(Math.random() * facts.length);
+            putFile("fact", facts[factNumber], currentLocation, loadRandom);
+          };
 
+          loadRandom();
+        })({{ .Site.BaseURL}});
+      </script>
+
+      {{ partial "footer.html" . }}
