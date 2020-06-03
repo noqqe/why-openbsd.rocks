@@ -2,7 +2,7 @@
 title: "FFS2: Enhanced Fast Filesystem"
 ---
 
-**FFS2** is the new filesystem by default on nearly all architectures, since OpenBSD 6.7.
+**FFS2** (Enhanced Fast Filesystem) is the new filesystem by default on nearly all architectures, since OpenBSD 6.7.
 
 Benefits: 
 
