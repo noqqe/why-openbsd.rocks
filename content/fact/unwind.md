@@ -24,3 +24,4 @@ Details:
 * [unwind.conf(5) - OpenBSD manual pages](http://man.openbsd.org/unwind.conf.5)
 * [unbound(8) - OpenBSD manual pages](http://man.openbsd.org/unbound.8)
 * [unwindctl(8) - OpenBSD manual pages](http://man.openbsd.org/unwindctl.8)
+* [dhclient(8) - OpenBSD manual pages](http://man.openbsd.org/dhclient.8)
