@@ -12,7 +12,7 @@ endpoints. The default UDP port for VXLAN traffic is 4789.
 
 Details:
 
-* The `vxlan` device first appeared in OpenBSD 6.5. 
+* The `vxlan` device first appeared in [OpenBSD 6.5](https://openbsd.org/65.html). 
 * [vxlan(4) - OpenBSD manual pages](http://man.openbsd.org/vxlan.4)
 * [hostname.if(5) - OpenBSD manual pages](http://man.openbsd.org/hostname.if.5)
 * [ifconfig(8) - OpenBSD manual pages](http://man.openbsd.org/ifconfig.8)
