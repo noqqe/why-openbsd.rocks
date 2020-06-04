@@ -12,6 +12,6 @@ running and handle many HTTP requests.
 
 Details:
 
-* The `slowcgi` server first appeared in OpenBSD 5.4.
+* The `slowcgi` server first appeared in [OpenBSD 5.4](https://openbsd.org/54.html).
 * [slowcgi(8) - OpenBSD manual pages](http://man.openbsd.org/slowcgi.8)
 * [httpd(8) - OpenBSD manual pages](http://man.openbsd.org/httpd.8)
