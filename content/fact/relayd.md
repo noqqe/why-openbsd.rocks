@@ -21,7 +21,7 @@ relay www {
 
 Details:
 
-* The `relayd` program, formerly known as `hoststated`, first appeared in OpenBSD 4.1. It was renamed to `relayd` in OpenBSD 4.3. 
+* The `relayd` program, formerly known as `hoststated`, first appeared in [OpenBSD 4.1](https://openbsd.org/41.html). It was renamed to `relayd` in [OpenBSD 4.3](https://openbsd.org/43.html). 
 * [relayd(8) - OpenBSD manual pages](http://man.openbsd.org/relayd.8)
 * [relayd.conf(5) - OpenBSD manual pages](http://man.openbsd.org/relayd.cond.5)
 * [relayctl(8) - OpenBSD manual pages](http://man.openbsd.org/relayctl.8)
