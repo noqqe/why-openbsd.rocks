@@ -11,7 +11,7 @@ is a fairly complete BGP implementation, powering many sites. Users
 often praise its ease of use and high performance, as well as its
 reliability.
 
-`OpenBGPD's` companions, ospfd(8), ospf6d(8), ripd(8) and dvmrpd(8)
+`OpenBGPD`'s companions, ospfd(8), ospf6d(8), ripd(8) and dvmrpd(8)
 add support for the respective protocols. ldpd(8) and mpe(4) add
 MPLS support.
 
@@ -29,5 +29,11 @@ Details:
 
 * The `bgpctl` program first appeared in [OpenBSD 3.5](https://openbsd.org/35.html).
 * [bgpd(8) - OpenBSD manual pages](https://man.openbsd.org/bgpd.8)
-* [bgpd.conf(5) - OpenBSD manual pages](http://man.openbsd.org/bgpd.cond.5)
+* [bgpd.conf(5) - OpenBSD manual pages](http://man.openbsd.org/bgpd.conf.5)
 * [bgpdctl(8) - OpenBSD manual pages](http://man.openbsd.org/bgpdctl.8)
+* [ospfd(8) - OpenBSD manual pages](http://man.openbsd.org/ospfd.8)
+* [ospf6d(8) - OpenBSD manual pages](http://man.openbsd.org/ospf6d.8)
+* [ripd(8) - OpenBSD manual pages](http://man.openbsd.org/ripd.8)
+* [dvmrpd(8) - OpenBSD manual pages](http://man.openbsd.org/dvmrpd.8)
+* [ldpd(8) - OpenBSD manual pages](http://man.openbsd.org/ldpd.8)
+* [mpe(4) - OpenBSD manual pages](http://man.openbsd.org/mpe.4)
