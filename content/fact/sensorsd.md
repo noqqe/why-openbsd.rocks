@@ -13,5 +13,5 @@ configured to execute a command.
 
 Details:
 
-* The `sensorsd` program first appeared in OpenBSD 3.5.
+* The `sensorsd` program first appeared in [OpenBSD 3.5](https://openbsd.org/35.html).
 * [sensorsd(8) - OpenBSD manual pages](http://man.openbsd.org/sensorsd.8)

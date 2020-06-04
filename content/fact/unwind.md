@@ -19,7 +19,7 @@ using the tool [rcctl](/fact/rcctl):
 
 Details:
 
-* The `unwind` program first appeared in OpenBSD 6.5.
+* The `unwind` program first appeared in [OpenBSD 6.5](https://openbsd.org/65.html).
 * [unwind(8) - OpenBSD manual pages](http://man.openbsd.org/unwind.8)
 * [unwind.conf(5) - OpenBSD manual pages](http://man.openbsd.org/unwind.conf.5)
 * [unbound(8) - OpenBSD manual pages](http://man.openbsd.org/unbound.8)
