@@ -10,5 +10,6 @@ open alternative to traditional `rsync`.
 
 Details:
 
+* the `openrsync` program first appeared in [OpenBSD 6.5](https://openbsd.org/65.html). 
 * [OpenBSD on Tweet about openrsync](https://twitter.com/openbsd/status/1094750961107697664?s=21)
 * [GitHub - kristapsdz/openrsync: BSD-licensed implementation of rsync](https://github.com/kristapsdz/openrsync)

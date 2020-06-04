@@ -8,7 +8,7 @@ Benefits:
 
 * FFS2 is faster than its predecessor FFS when creating the filesystem, 
 	as well as analyzing it with `fsck(8)`
-* FFS2 uses 64-bit timestamps and block numbers; so it is not subject to 
+* FFS2 uses [64-bit timestamps](/fact/64bit-time/) and block numbers; so it is not subject to 
 	the Y2038 bug.
 * FFS2 supports very large partitions (>= 1TB, since 4.2).
 

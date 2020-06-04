@@ -17,3 +17,4 @@ Details:
 
 * ['stack-register checking' - MARC](https://marc.info/?l=openbsd-tech&m=152035796722258&w=2)
 * [Stack-register Checking](https://undeadly.org/cgi?action=article;sid=20180310000858)
+* [OpenBSD 6.3](https://openbsd.org/63.html)

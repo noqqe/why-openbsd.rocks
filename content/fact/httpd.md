@@ -26,3 +26,4 @@ Details:
 * [httpd(8) - OpenBSD manual pages](https://man.openbsd.org/httpd.8)
 * [OpenBSD 5.6](https://www.openbsd.org/56.html)
 * [OpenBSD 5.6 changelog](https://www.openbsd.org/plus56.html)
+* [httpd website](https://bsd.plumbing/)

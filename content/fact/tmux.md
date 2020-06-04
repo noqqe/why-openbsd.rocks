@@ -11,6 +11,7 @@ There is also a portable version of tmux for non-OpenBSD machines.
 
 Details:
 
+* the tmux program first appeared in [OpenBSD 4.6](https://openbsd.org/46.html)
 * [tmux imported into base - commit](https://marc.info/?l=openbsd-cvs&m=124389728412353&w=2)
 * [tmux imported into base - article](https://undeadly.org/cgi?action=article&sid=20090707041154)
 * [Interview with Nicholas](https://www.undeadly.org/cgi?action=article&sid=20090712190402)+
