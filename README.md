@@ -36,7 +36,6 @@ to be added as facts:
 * netstart.sh
 * malloc sysctl (former malloc.conf)
 * patched dhclient and priv sep
-* only 1 utf-8 locale - C.UTF-8
 * RETGUARD Stack protector https://marc.info/?l=openbsd-cvs&m=152824407931917&w=2
 * clang as default compiler on certain architectures
 * Happy Eyeballs https://undeadly.org/cgi?action=article;sid=20191128040647
