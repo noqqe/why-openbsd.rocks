@@ -4,7 +4,7 @@ title: "Chrooted webserver by default"
 
 By default, HTTP daemons are chrooted in `/var/www`. As an OpenBSD
 system administrator, you don't need to configure anything to have a 
-jailed webserver installation running.
+secured webserver installation running.
 
 This is also true for HTTP daemons from packages (`apache2`, `nginx`).
 
