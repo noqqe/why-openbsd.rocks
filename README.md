@@ -9,12 +9,11 @@ I have personally been using OpenBSD since 2012. Every now and then
 
 > “You are using OpenBSD? Why?”
 
-There are a bazillion things that are great about OpenBSD.
-The people, the philosophy and the technology.
+There are a bazillion things that are great about OpenBSD - the people, the philosophy and the technology.
 
 # Help!
 
-Everyone is free to create a PR and this project relies on help! I'm not an expert on
+Everyone is free to create PR(s) as this project relies on help! I'm not an expert on
 everything and facts may be missing, have typos or are wrong.
 
 Feel free to open PRs for:
