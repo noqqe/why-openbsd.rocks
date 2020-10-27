@@ -39,3 +39,4 @@ to be added as facts:
 * clang as default compiler on certain architectures
 * Happy Eyeballs https://undeadly.org/cgi?action=article;sid=20191128040647
 * ipstack interface validation https://undeadly.org/cgi?action=article;sid=20191209024432
+* libressl 6.8: New X509 certificate chain validator that correctly handles multiple paths through intermediate certificates. Loosely based on Go's X509 validator. 
