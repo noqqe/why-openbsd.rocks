@@ -11,8 +11,8 @@ Angaben gemäß § 5 TMG:
 
 ```
 Florian Baumann
-Kirschgartenstr. 77
-90419 Nürnberg
+Jakob-Fuchs-Str. 35
+95445 Bayreuth
 
 mail: flo aett blog domain
 blog: https://noqqe.de
