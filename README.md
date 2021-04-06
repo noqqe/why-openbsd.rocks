@@ -25,6 +25,14 @@ Feel free to open PRs for:
 * Correct claims in fact descriptions
 * Everything else you can think of
 
+# Deployment
+
+After a PR gets merged or a commit gets pushed by an author, the site will be automatically deployed to our VM
+
+[![Deploy](https://github.com/noqqe/why-openbsd.rocks/actions/workflows/deploy.yml/badge.svg)](https://github.com/noqqe/why-openbsd.rocks/actions/workflows/deploy.yml)
+
+The VM got sponsored by [openbsda.ms](https://openbsda.ms) ❤️
+
 # Ideas
 
 to be added as facts:
