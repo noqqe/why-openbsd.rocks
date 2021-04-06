@@ -1,0 +1,32 @@
+name: Deploy
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  deploy_job:
+    name: Deploy Job
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v1
+    - name: Hugo build
+      run: |
+        sudo snap install hugo --channel=extended
+        hugo
+    - name: SSH setup
+      env:
+        DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+        KNOWN_HOSTS: ${{ secrets.KNOWN_HOST }}
+      run: |
+        mkdir -p ~/.ssh
+        echo "${KNOWN_HOSTS}" >> ~/.ssh/known_hosts
+        echo "${DEPLOY_KEY}" > ~/.ssh/my_rsync_key
+        echo "IdentityFile ~/.ssh/my_rsync_key" >> ~/.ssh/config
+        chmod -R 700 ~/.ssh
+    - name: Rsync deployment
+      env:
+        RSYNC_USER: ${{ secrets.RSYNC_USER }}
+        HOST: ${{ secrets.HOST }}
+      run: |
+        rsync -avz -e ssh --delete public/ ${RSYNC_USER}@${HOST}:public/
