@@ -18,5 +18,5 @@ this.
 
 Details:
 
-* [dump(8) - OpenBSD manual pages](https://man.openbsd.org/dump.1)
+* [dump(8) - OpenBSD manual pages](https://man.openbsd.org/dump.8)
 * [chflags(1) - OpenBSD manual pages](https:/man.openbsd.org/chflags.1#nodump)
