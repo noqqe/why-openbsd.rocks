@@ -2,7 +2,7 @@
 title: "Random MAC addresses in ifconfig(8)"
 ---
 
-OpenBSD let's you have randomized MAC addresses via `ifconfig(8)`
+OpenBSD lets you have randomized MAC addresses via `ifconfig(8)`
 
 ```
 ifconfig iwm0 lladdr random
