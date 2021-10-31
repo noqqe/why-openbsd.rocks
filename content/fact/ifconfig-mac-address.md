@@ -9,7 +9,7 @@ ifconfig iwm0 lladdr random
 ```
 
 Randomizing your MAC address improves anonymity while using your Laptop in
-public wifi's or the like.
+public wifi or the like.
 
 Details:
 
