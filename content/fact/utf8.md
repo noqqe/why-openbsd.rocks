@@ -7,7 +7,7 @@ non-UTF-8 locales in 2015! You will never again have to deal with locale charset
 
 Details:
 
-* [OpenBSD FAQ: General Questions](https://www.openbsd.org/faq/faq8.html#locales)
+* [OpenBSD FAQ: General Questions](https://www.openbsd.org/faq/faq10.html#locales)
 * [‘CVS: cvs.openbsd.org: src’ - MARC](https://marc.info/?l=openbsd-cvs&m=143956261214725&w=2)
 * [Heads up! OpenBSD now supports multi-byte characters!](https://undeadly.org/cgi?action=article&sid=20100729233638)
 
