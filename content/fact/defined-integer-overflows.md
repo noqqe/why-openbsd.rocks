@@ -15,3 +15,7 @@ Details:
 * [clang(1) - OpenBSD manual pages](https://man.openbsd.org/clang.1)
 * [gcc-local(1) - OpenBSD manual pages](https://man.openbsd.org/gcc-local.1)
 * [gcc(1) - OpenBSD manual pages](https://man.openbsd.org/gcc.1)
+
+---
+aliases:
+- /fact/clang-fwrapv/
