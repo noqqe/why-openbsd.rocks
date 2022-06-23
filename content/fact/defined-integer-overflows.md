@@ -1,4 +1,8 @@
 ---
+aliases:
+- /fact/clang-fwrapv/
+
+---
 title: "Defined integer overflows"
 ---
 
@@ -16,6 +20,3 @@ Details:
 * [gcc-local(1) - OpenBSD manual pages](https://man.openbsd.org/gcc-local.1)
 * [gcc(1) - OpenBSD manual pages](https://man.openbsd.org/gcc.1)
 
----
-aliases:
-- /fact/clang-fwrapv/
