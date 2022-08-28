@@ -1,4 +1,3 @@
-
 /**
  *
  * @param {string}    id
@@ -8,37 +7,27 @@
  */
 function putFile(id, file, location, onLocation)
 {
-  var targetElem = document.getElementById(id);
-  var targetFallbackHTML = "<p>Page not found.</p>";
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function()
-  {
-    if (this.readyState == 4)
-    {
-      if (this.status == 200)
-      {
-        try
-        {
-          var sourceDoc = (new DOMParser()).parseFromString(this.responseText, 'text/html');
-          var sourceElem = sourceDoc.getElementById(id);
-          replace_onClick(sourceElem, location, onLocation);
-          targetElem.parentElement.replaceChild(sourceElem, targetElem);
-          if ( window.history && window.history.replaceState )
-          {
-             window.history.replaceState({}, sourceDoc.title ,file);
-          }
-          return;
-        }
-        catch (e)
-        {
-          console.error(e);
-        }
+  const targetElem = document.getElementById(id);
+  const targetFallbackHTML = "<p>Page not found.</p>";
+
+  fetch(file)
+    .then(response => {
+      if (!response.ok) {
+	throw new Error("Failed to get page");
       }
-      targetElem.innerHTML = targetFallbackHTML;
-    }
-  };
-  xhttp.open("GET", file, true);
-  xhttp.send();
+      return response.text();
+    })
+    .then(text => {
+      const sourceDoc = (new DOMParser()).parseFromString(text, 'text/html');
+      const sourceElem = sourceDoc.getElementById(id);
+      replace_onClick(sourceElem, location, onLocation);
+      targetElem.parentElement.replaceChild(sourceElem, targetElem);
+
+      if (window.history && window.history.replaceState) {
+	window.history.replaceState({}, sourceDoc.title, file);
+      }
+    })
+    .catch(() => targetElem.innerHtml = targetFallbackHTML);
 }
 
 /**
@@ -49,14 +38,13 @@ function putFile(id, file, location, onLocation)
  */
 function replace_onClick (elem, location, onLocation)
 {
-  var onClick = function() { onLocation(); return false; };
-  var as = elem.getElementsByTagName('a');
-  for ( var ai=0, al=as.length, ae ; ai < al ; ++ai )
+  const onClick = () => { onLocation(); return false; };
+  const as = elem.getElementsByTagName('a');
+  for (let ai=0, al=as.length, ae; ai < al; ++ai)
   {
     /** @type {HTMLLinkElement} ae */
     ae = as[ai];
-    if ( ae.href == location )
-    {
+    if ( ae.href === location ) {
       ae.onclick = onClick;
     }
   }
