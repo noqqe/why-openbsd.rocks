@@ -24,7 +24,7 @@ function putFile(id, file, location, onLocation)
       targetElem.parentElement.replaceChild(sourceElem, targetElem);
 
       if (window.history && window.history.replaceState) {
-	window.history.replaceState({}, sourceDoc.title, file);
+      	window.history.replaceState({}, sourceDoc.title, file);
       }
     })
     .catch(() => targetElem.innerHtml = targetFallbackHTML);
