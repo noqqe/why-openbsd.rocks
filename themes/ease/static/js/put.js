@@ -13,7 +13,7 @@ function putFile(id, file, location, onLocation)
   fetch(file)
     .then(response => {
       if (!response.ok) {
-	throw new Error("Failed to get page");
+        throw new Error("Failed to get page");
       }
       return response.text();
     })
