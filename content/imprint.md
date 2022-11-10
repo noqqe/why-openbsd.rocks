@@ -16,7 +16,7 @@ Jakob-Fuchs-Str. 35
 
 mail: flo aett blog domain
 blog: https://noqqe.de
-twitter: @noqqe
+fediverse: https://chaos.social/@noqqe
 ```
 
 Quelle: eRecht24, Rechtsanwalt für Internetrecht Sören Siebert
