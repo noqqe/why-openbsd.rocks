@@ -1,52 +1,62 @@
 # Why OpenBSD rocks
 
-The idea is to create a website that shows great things in OpenBSD to people interested in using it.
+The idea is to create a website that shows great things in OpenBSD to people
+interested in using it.
 
-# About
+## About
 
 I have personally been using OpenBSD since 2012. Every now and then
 (at conferences, the office, the local hackerspace) people are asking:
 
 > “You are using OpenBSD? Why?”
 
-There are a bazillion things that are great about OpenBSD - the people, the philosophy and the technology.
+There are a bazillion things that are great about OpenBSD - the people, the
+philosophy and the technology.
 
-# Help!
+## Help!
 
-Everyone is free to create PR(s) as this project relies on help! I'm not an expert on
-everything and facts may be missing, have typos or are wrong.
+Everyone is free to create PR(s) as this project relies on help! I'm not an
+expert on everything and facts may be missing, have typos or are wrong.
 
 Feel free to open PRs for:
 
-* New facts
-* Fix typos
-* Add additional references to existing facts
-* Layout / CSS / HTML changes
-* Correct claims in fact descriptions
-* Everything else you can think of
+- New facts
+- Fix typos
+- Add additional references to existing facts
+- Layout / CSS / HTML changes
+- Correct claims in fact descriptions
+- Everything else you can think of
 
-# Deployment
+## Deployment
 
-After a PR gets merged or a commit gets pushed by an author, the site will be automatically deployed to our VM
+After a PR gets merged or a commit gets pushed by an author, the site will be
+automatically deployed to our VM
 
 [![Deploy](https://github.com/noqqe/why-openbsd.rocks/actions/workflows/deploy.yml/badge.svg)](https://github.com/noqqe/why-openbsd.rocks/actions/workflows/deploy.yml)
 
 The VM got sponsored by [openbsd.amsterdam](https://openbsd.amsterdam/) ❤️
 
-# Ideas
+## Ideas
 
 to be added as facts:
 
-* snmpd
-* iked(8)
-* isakmpd(8)
-* netstart.sh
-* malloc sysctl (former malloc.conf)
-* patched dhclient and priv sep
-* RETGUARD Stack protector https://marc.info/?l=openbsd-cvs&m=152824407931917&w=2
-* clang as default compiler on certain architectures
-* Happy Eyeballs https://undeadly.org/cgi?action=article;sid=20191128040647
-* ipstack interface validation https://undeadly.org/cgi?action=article;sid=20191209024432
-* libressl 6.8: New X509 certificate chain validator that correctly handles multiple paths through intermediate certificates. Loosely based on Go's X509 validator
-* explicit_bzero(3)
-* BSD make and include files for makefiles at /usr/share/mk/
+- snmpd
+- iked(8)
+- isakmpd(8)
+- netstart.sh
+- malloc sysctl (former malloc.conf)
+- patched dhclient and priv sep
+- RETGUARD Stack protector [More info](https://marc.info/?l=openbsd-cvs&m=152824407931917&w=2)
+- clang as default compiler on certain architectures
+- Happy Eyeballs [More Info](https://undeadly.org/cgi?action=article;sid=20191128040647)
+- ipstack interface validation [More info](https://undeadly.org/cgi?action=article;sid=20191209024432)
+- Libressl 6.8: New X509 certificate chain validator that correctly handles
+  multiple paths through intermediate certificates.
+  Loosely based on Go's X509 validator
+- explicit_bzero(3)
+- BSD make and include files for makefiles at /usr/share/mk/
+- Mandatory enforcement of indirect branch targets. This recently added
+  innovation in OpenBSD harden the system for IBT attacks style (ex: Specter).
+  All executable on arch that support this feature are compiling using this innovation.
+- GOT or Game of Tree, an development focused in simplify the manage of
+  GIT repositories (is GIT compatible).
