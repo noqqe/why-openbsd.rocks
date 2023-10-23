@@ -14,5 +14,5 @@ permit nopass root
 Details:
 
 * [doas(1) - OpenBSD manual pages](http://man.openbsd.org/doas)
-* [doas - dedicated openbsd application subexecutor](https://https.www.google.com.tedunangst.com/flak/post/doas)
+* [doas - dedicated openbsd application subexecutor](https://flak.tedunangst.com/post/doas)
 * [OpenBSD 5.8](https://www.openbsd.org/58.html)
