@@ -9,7 +9,7 @@ Created backup could be piped through archiver, encryption tool or ssh.
 Unlike with pax(1), tar(1) and cpio(1) dump can save in backup file with
 name as long as supported by filesystem.
 
-Date of the latest filesystem backup and level of that backup keeped in
+Date of the latest filesystem backup and level of that backup kept in
 `/etc/dumpdates` file and could be viewed with `dump -W`.
 
 A file with `nodump` flag set will by default be backed up by dump
