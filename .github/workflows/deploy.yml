@@ -7,7 +7,7 @@ on:
 jobs:
   deploy_job:
     name: Deploy Job
-    runs-on: ubuntu-25.04
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
     - name: Hugo build
