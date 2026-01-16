@@ -7,7 +7,7 @@ from running concurrently (`-s`). Super useful additions that all cron
 implementations should have had forever.
 
 > For example "0~30" will result in a random value between 0 and 30
-> inclusive.  If either (or both) of the numbers on either side of the '~'
+> inclusive.  If either (or both) of the numbers on either side of the '\~'
 > are omitted, the appropriate limit (low or high) for the field will be
 > used.
 
