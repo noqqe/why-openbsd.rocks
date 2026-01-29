@@ -1,0 +1,66 @@
+/*
+vim:ts=4:sw=4:
+*/
+
+body {
+    background-color: #222;
+}
+
+#OpenBSD :link i,
+#OpenBSD :visited i {
+    color: #F2CA30;
+    text-decoration-color: #CF4229;
+}
+
+#OpenBSD :link b,
+#OpenBSD :visited b {
+    color: #CF4229;
+    text-shadow: 2px 2px gray;
+}
+
+a,
+a:visited {
+    color: lightgray;
+}
+
+pre {
+    background-color: #373636;
+}
+
+blockquote {
+    border-left: 4px solid #ccc;
+}
+
+code,
+pre code {
+    background-color: #373636;
+}
+
+header a,
+header a:visited {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a,
+footer a:visited {
+    color: lightgray;
+}
+
+footer {
+    color: #4b4848;
+}
+
+div.itemcontent {
+    color: lightgray;
+}
+
+div.itemwrapper h1 {
+    color: lightgray;
+}
+
+div.itemwrapper h1,
+div.itemwrapper h1 a {
+    color: lightgray;
+}
