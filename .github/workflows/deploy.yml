@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v1
     - name: Hugo build
       run: |
-        sudo snap install hugo --channel=extended/candidate
+        sudo snap install hugo --channel=extended/beta
         hugo
     - name: SSH setup
       env:
