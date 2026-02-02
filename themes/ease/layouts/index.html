@@ -6,7 +6,7 @@
       {{ partial "banner.html" . }}
       <div class="itemwrapper" id="fact">
         <noscript>
-          <p>see <a href="{{ .Site.BaseURL}}fact">All facts</a></p>
+          <p>see <a href="/fact">All facts</a></p>
         </noscript>
       </div>
       <script>
@@ -24,7 +24,7 @@
           };
 
           loadRandom();
-        })({{ .Site.BaseURL}});
+        })("/");
       </script>
 
       {{ partial "footer.html" . }}
