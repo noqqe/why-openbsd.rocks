@@ -2,9 +2,9 @@
 title: "WireGuard"
 ---
 
-OpenBSD has an in-kernel driver for WireGuard VPN communication. Including
-the WireGuard Protocol in the kernel improves performance while makes it easy
-to use for everyone in OpenBSD base.
+OpenBSD has an in-kernel driver for WireGuard VPN communication. 
+Including the WireGuard Protocol in the kernel which improves performance
+while making it easy to use for everyone in OpenBSD base.
 
 > WireGuard® is an extremely simple yet fast and modern VPN that utilizes state-of-the-art cryptography.
 
