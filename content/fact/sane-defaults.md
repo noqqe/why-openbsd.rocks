@@ -14,5 +14,6 @@ get services running. There is no hardening process required when you setup
 
 Details:
 
-* [Secure by default - Wikipedia](https://en.wikipedia.org/wiki/Secure_by_default)
-* [OpenBSD - Wikipedia](https://en.wikipedia.org/wiki/OpenBSD)<Paste>
+* [What security does a default OpenBSD installation offer?](https://dataswamp.org/~solene/2021-02-14-openbsd-default-security.html)
+* [OpenBSD security features - Wikipedia](https://en.wikipedia.org/wiki/OpenBSD_security_features)
+* [OpenBSD - Wikipedia](https://en.wikipedia.org/wiki/OpenBSD#Security)
